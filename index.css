@@ -1,0 +1,80 @@
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+
+
+.edit {
+	color:black;
+	flex-direction: column;
+}
+input{
+	margin:2px;
+}
+.card {
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+.gridContainer{
+	display: flex;
+}
+
+.grid {
+	width: 100px;
+	height: 100px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.grid span{
+	font-size: 10px;
+}
+
+.grid i{
+	font-size: 50px;
+}
+
+.grid img{
+	max-width: 100%; 
+	height : 100%;
+	border-radius: 50%;
+
+}
+
+.long {
+	width: 200px;
+	text-align: center;
+	display: flex;
+
+}
+
+h2{
+	margin:0;
+	padding: 0;
+}
+p{
+	margin:0;
+	padding: 0;
+}
+
+#name {
+	background: #f0b514;
+}
+
+#email{
+	background: #1c3dfa;
+}
+
+#contact {
+	background: #20d819;
+}
+
+#website {
+	background: #f11456;
+}

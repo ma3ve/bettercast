@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='./index.css'>
+	<script src='./index.js'></script>
+	<title>Business Card</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="gridContainer">
+				<div class="grid" id="img"><img src="https://images.unsplash.com/photo-1416339306562-f3d12fefd36f" /></div>
+				<div class="grid long" id="name">
+					<h2>Some Company</h2>
+					<p>we do things </p>
+				</div>
+			</div>
+			<div class="gridContainer">
+				<div class="grid" id="email">
+					<i class="fa fa-envelope-o"></i>
+					<span class="text">mail@example.com</span>
+				</div>
+				<div class="grid" id="contact"><i class="fa fa-phone"></i>
+					<span class="text">(000) 000 000</span>
+				</div>
+				<div class="grid" id="website"><i class="fa fa-mouse-pointer"></i>
+					<span class="text">www.example.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br />
+	<br />
+	<div class="container edit">
+		<h2>Edit</h2>
+		<input id="imgInput" placeholder="image" />
+		<input id="nameInput" placeholder="company Name" />
+		<input id="sloganInput" placeholder="slogan" />
+		<input id="emailInput" placeholder="Email" />
+		<input id="contactInput" placeholder="contact" />
+		<input id="websiteInput" placeholder="website" />
+		<button type="button" onclick="submit()">Change</button>
+	</div>
+</body>
+
+</html>
